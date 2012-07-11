@@ -51,7 +51,17 @@ client.query("select * from tracker limit 5 offset 5");
 
 ```
 
+Using a Proxy
+-------------
+If you need to use an HTTP proxy, you can set it when you create the client instance:
 
+```javascript
+var client = new CartoDB({
+	user: secret.USER,
+	api_key: secret.API_KEY,
+	proxy: "http://proxy.proxyserver.net"
+});
+```
 
 Dependencies
 ------------
