@@ -1,5 +1,5 @@
 {
-    "request_url" : "http://cartodb.projects.nonni.cc:8080/user/:user/oauth/request_token"
-  , "access_url"  : "http://cartodb.projects.nonni.cc:8080/user/:user/oauth/access_token"
-  , "api_url"     : "http://cartodb.projects.nonni.cc:8080/user/:user/api/v2/sql"
+    "request_url" : ":url/user/:user/oauth/request_token"
+  , "access_url"  : ":url/user/:user/oauth/access_token"
+  , "api_url"     : ":url/user/:user/api/v2/sql"
 }
